@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul li{
+    display: inline-block;
+    margin-inline: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    
+}
+
+
+ul li:hover{
+    color: red;
+}
+main{
+    columns: 3 250px;
+    font-size: larger;
+    column-rule: 3px solid black;
+    column-gap: 50px;
+    margin: 0 20px;
+    margin-top: 40px;
+    text-align: justify;
+}
+div{
+    text-align: justify;
+    margin: 50px 20px;
+    font-size: larger;
+    
+}
+.img1{
+    float: left;
+}
+.img2{
+    float: right;
+}
+ 
