@@ -84,7 +84,7 @@ nav ul a:hover{
 }
 .how h1{
     text-align: center;
-    padding-top: 30px;
+    padding-top: 55px;
 }
 
 .works{
@@ -93,4 +93,12 @@ nav ul a:hover{
     justify-content: space-evenly;
     justify-items: center;
     padding-top: 30px;
+}
+
+.button{
+    padding: 15px 25px;
+    font-size: medium;
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 40px;
 }
