@@ -76,3 +76,21 @@ nav ul a:hover{
     width: 500px; 
     font-size: xx-large;
 }
+
+.how{
+    width: 100%;
+    height: 260px;
+    background-color: #ffede7;
+}
+.how h1{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.works{
+    display: flex;
+    margin-inline: 50px;
+    justify-content: space-evenly;
+    justify-items: center;
+    padding-top: 30px;
+}
