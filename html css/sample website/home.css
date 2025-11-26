@@ -22,7 +22,6 @@ nav{
     align-items: center;
     /* padding-top: 20px; */
     position: relative;
-    
 }
 
 nav h1{
@@ -33,9 +32,6 @@ nav ul{
     list-style: none;
     display: flex;
     gap: 70px;
-    
-
-    
 }
 
 nav ul a{
@@ -89,13 +85,13 @@ nav ul a:hover{
 }
 
 .search{
-    width: 60%;
-    height: 200px;
-    margin-inline: 250px;
+    width: 75%;
+    height: 170px;
+    margin-inline: 155px;
     background-color: #10375c;
-    position: absolute;
-    top: 85%;
-    
+    position: absolute ;
+    top: 89%;
+    border-radius: 7px;
 
 }
 
@@ -106,18 +102,32 @@ nav ul a:hover{
 }
 
 .input{
-    margin-top: 5px;
-    width: 200px;
-    height: 40px;
-    border: 0px;
-    border-radius: 8px;
-    padding:0  10px;
+        margin-top: 5px;
+        width: 260px;
+        height: 40px;
+        border: 0px;
+        border-radius: 8px;
+        padding:0  10px;
 }
 
 .form-text{
     color: white;
     font-size: 15px;
 }
+
+
+
+.search-button{
+    margin-top: 5px;
+    width: 260px;
+    height: 40px;
+    border: 0px;
+    border-radius: 8px;
+    padding:0  10px;
+    background-color: #ff5722;
+    color: white;
+}
+
 
 .how{
     width: 100%;
