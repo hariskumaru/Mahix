@@ -187,9 +187,33 @@ nav ul a:hover{
 .cityimg{
     width: 240px;
     height: 740px;
-    background-image: url(https://media.gettyimages.com/id/595225191/photo/motorway-suspension-bridge-algarve-portugal.jpg?s=612x612&w=0&k=20&c=VvUi7MPIDEuy1Ltciv7DE-D4g9wKtfoubRCyD1dzL6s=);background-size: cover;
+    
+    background-size: cover;
     background-position-x: center ;
     image-rendering: pixelated;
     filter: brightness(70%);
 }
 
+.imgphone{
+    border-radius: 40px;
+    transform: rotate(-20deg);
+    box-shadow: 4px 6px 20px ;
+}
+.mobile-banner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    justify-content: right;
+}
+
+.about-info{
+    border-bottom: 2px solid rgb(53, 53, 53);
+    width: 240px;
+}
+.about-info h1{
+    letter-spacing: 1px;
+    font-size: 50px;
+    color: rgb(31, 31, 31);
+}
